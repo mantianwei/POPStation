@@ -1,0 +1,48 @@
+{
+    "name": "POPStation",
+    "version": "1.0.0",
+    "description": "koa2 example with url route",
+    "main": "app.js",
+    "scripts": {
+        "start": "node --use_strict app.js"
+    },
+    "keywords": [
+        "koa",
+        "async"
+    ],
+    "author": "Man T",
+    "license": "Apache-2.0",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mantianwei?tab=repositories"
+    },
+    "dependencies": {
+        "koa": "2.0.0",
+        "koa-bodyparser": "3.2.0",
+        "koa-router": "7.0.0",
+        "koa-static": "^5.0.0",
+
+        "ora": "^1.2.0",
+        "portfinder": "^1.0.13",
+        "postcss-import": "^11.0.0",
+        "postcss-loader": "^2.0.8",
+        "postcss-url": "^7.2.1",
+        "rimraf": "^2.6.0",
+        "sass-loader": "^6.0.7",
+        "semver": "^5.3.0",
+        "shelljs": "^0.7.6",
+        "supertest": "^3.3.0",
+        "uglifyjs-webpack-plugin": "^1.1.1",
+        "url-loader": "^0.5.8",
+        "vue-jest": "^3.0.1",
+        "vue-loader": "^13.3.0",
+        "vue-style-loader": "^3.0.1",
+        "vue-template-compiler": "^2.5.2",
+        "webpack": "^3.6.0",
+        "webpack-bundle-analyzer": "^2.9.0",
+        "webpack-dev-server": "^2.9.1",
+        "webpack-merge": "^4.1.0"
+
+        
+    }
+}

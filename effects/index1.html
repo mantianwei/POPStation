@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>POPStation</title>
+
+    <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
+
+</head>
+
+<body>
+    <canvas id="text" width="500" height="100"></canvas>
+
+<canvas id="stage" width="500" height="100"></canvas>
+<p type="text" style="top: 100px;left: 30px;">手机号</p>
+<p type="text" style="top: 170px;left: 30px;">密码</p>
+<form id="form" action="/signin" method="post">
+    <input name="name" type="text" id="inputText" value="" style="top: 98px;
+    left: 110px;" />
+    <input name="password" type="password" id="inputTextPassword" value="" style="top: 168px;
+    left: 110px;"/>
+    <input type="submit" value="发起助力！" />
+</form>
+
+</body>
+</html>
